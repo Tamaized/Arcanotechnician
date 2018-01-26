@@ -1,0 +1,16 @@
+[
+{
+"modid": "arcanotechnician",
+"name": "Arcanotechnician",
+"description": "Become an Artificer to combine tech and magic into powerful devices",
+"version": "${version}",
+"credits": "Tamaized",
+"logoFile": "",
+"mcversion": "[1.12,)",
+"url": "",
+"updateUrl": "",
+"authorList": [ "Tamaized" ],
+"screenshots": [],
+"dependencies": []
+}
+]
