@@ -7,11 +7,12 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = Arcanotechnician.MODID, version = Arcanotechnician.VERSION, acceptedMinecraftVersions = "[1.12,)")
+@Mod(modid = Arcanotechnician.MODID, version = Arcanotechnician.VERSION, acceptedMinecraftVersions = "[1.12,)", dependencies = "required-before:baubles@[" + Arcanotechnician.BAUBLES_VERSION + ",)")
 public class Arcanotechnician {
 
 	public static final String MODID = "arcanotechnician";
 	public static final String VERSION = "${version}";
+	public static final String BAUBLES_VERSION = "${baublesversion}";
 
 	public static final Logger LOGGER = LogManager.getLogger(MODID);
 
